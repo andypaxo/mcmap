@@ -103,7 +103,7 @@ public class MCMapCmd {
         minX = Math.min(minX, regionX);
         minZ = Math.min(minZ, regionZ);
         maxX = Math.max(maxX, regionX);
-        maxZ = Math.max(maxX, regionZ);
+        maxZ = Math.max(maxZ, regionZ);
 
 		BufferedImage image = new BufferedImage(512, 512, BufferedImage.TYPE_INT_RGB);
 		
